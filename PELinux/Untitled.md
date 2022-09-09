@@ -18,22 +18,3 @@ Sticky bit - 1
 Using relative paths in binaries lead to command injection.
 
 
-- [ ] Check more on write permissions to /etc/sudoers group.
-
-
-```bash
-student ALL= NOPASSWD : /bin/vim
-```
-
-```
-username host=(runasuser:runasgroup) Commandtoexecute:All
-```
-
-```
-cbbn ALL=NOPASSWD:ALL 
-```
-
-```bash
-student ALL=NOPASSWD:ALL" >> /etc/sudoers
-``` 
-

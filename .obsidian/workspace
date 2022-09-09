@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Common.md",
+            "file": "BOF/BOF.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.833194732666
+    "width": 241
   },
   "right": {
     "id": "371297a0ae69a87d",
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common.md",
+                "file": "BOF/BOF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "a8c8c5d90ee5db3d",
   "lastOpenFiles": [
-    "AD/AD Post Exploitation.md",
-    "AD/Dacl.md",
-    "AD/DCSync.md",
-    "AD/GenericAll.md",
-    "AD/Kerberoasting.md",
-    "AD/Kerberos Attacks.md",
-    "AD/Kerberos Authentication.md",
-    "AD/PTH.md",
-    "AD/Quick Notes.md",
-    "AD/Resource Based Constraint Delegation.md"
+    "PELinux/Sudo.md",
+    "PELinux/Untitled.md",
+    "BOF/BOF.md",
+    "Flow.md",
+    "BOF/Bufferoverflow/README.md",
+    "Attachments/Kerberos_2.png",
+    "Attachments/Pasted image 20220525132820.png",
+    "AD/ldapsearch.md",
+    "Common.md",
+    "AD/AD Post Exploitation.md"
   ]
 }

