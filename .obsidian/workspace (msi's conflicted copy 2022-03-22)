@@ -1,0 +1,116 @@
+{
+  "main": {
+    "id": "9631e6a1e72cdaa3",
+    "type": "split",
+    "children": [
+      {
+        "id": "308ec67b49909a53",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Common.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "22468f02efbbd3ba",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "OSCP/Labs/Public/1nsider/1nsider.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b973386556193bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "10649e6922f9a95f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc6d8850a7198770",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4bf5118489c01ce6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "10.11.1.111",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.0121879577637
+  },
+  "right": {
+    "id": "371297a0ae69a87d",
+    "type": "split",
+    "children": [
+      {
+        "id": "76338a030eb03e69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "727677c736fd569b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Common.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 189
+  },
+  "active": "308ec67b49909a53",
+  "lastOpenFiles": [
+    "Common.md",
+    "OSCP/Labs/Public/1nsider/1nsider.md",
+    "Nmap.md",
+    "OSCP/Labs/Public/Ralph/Ralph.md",
+    "OSCP/Labs/IT/10.1.1.95/10.1.1.95.md",
+    "AD Post Exploitation.md",
+    "OSCP/Labs/Public/Bruce/Bruce.md",
+    "OSCP/Labs/Public/Break/Break.md",
+    "OSCP/Labs/Public/Sean/Sean.md",
+    "OSCP/Labs/Public/Core/Core.md"
+  ]
+}

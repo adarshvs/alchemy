@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "9631e6a1e72cdaa3",
+    "type": "split",
+    "children": [
+      {
+        "id": "308ec67b49909a53",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b973386556193bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "10649e6922f9a95f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc6d8850a7198770",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4bf5118489c01ce6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "smbserver",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302
+  },
+  "right": {
+    "id": "371297a0ae69a87d",
+    "type": "split",
+    "children": [
+      {
+        "id": "76338a030eb03e69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "727677c736fd569b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 189
+  },
+  "active": "308ec67b49909a53",
+  "lastOpenFiles": [
+    "OSCP/Exercises/Locating_PE/Untitled.md",
+    "OSCP/Labs/Public/Bethany/Bethany.md",
+    "msfvenom Payloads.md",
+    "Breakout.md",
+    "OSCP/Labs/Public/Kraken/Kraken.md",
+    "OSCP/Labs/Public/Alice/Alice.md",
+    "OSCP/Labs/Public/10.11.1.116/10.11.1.116.md",
+    "Notes.md",
+    "OSCP/Command Line Fun.md",
+    "AD Post Exploitation.md"
+  ]
+}

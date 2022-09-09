@@ -1,0 +1,36 @@
+{
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ]
+}

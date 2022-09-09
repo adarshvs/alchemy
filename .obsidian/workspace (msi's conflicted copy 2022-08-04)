@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "9631e6a1e72cdaa3",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef6c5dbfc49e01ed",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "hackthebox/OSCP_Machines/Previse/Previse.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b973386556193bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "10649e6922f9a95f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc6d8850a7198770",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4bf5118489c01ce6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "wsl",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 244.83319473266602
+  },
+  "right": {
+    "id": "371297a0ae69a87d",
+    "type": "split",
+    "children": [
+      {
+        "id": "76338a030eb03e69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "727677c736fd569b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "hackthebox/OSCP_Machines/Previse/Previse.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 100
+  },
+  "active": "ef6c5dbfc49e01ed",
+  "lastOpenFiles": [
+    "SMB.md",
+    "RSync.md",
+    "Resources.md",
+    "Redis.md",
+    "PHP File Uploads.md",
+    "PE Linux.md",
+    "Notes.md",
+    "Oracle.md",
+    "hackthebox/OSCP_Machines/Worker/Worker.md",
+    "hackthebox/OSCP_Machines/Time/Time.md"
+  ]
+}
