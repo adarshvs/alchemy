@@ -14,7 +14,6 @@ find / -type f -perm -04000 -ls 2>/dev/null
 
 
 ### Shared Object Injection
----------
 Use strace on obscure binaries to find missing files.
 ```bash
 strace /usr/local/bin/suid-so 2>&1 | grep -iE "open|access|no such file"

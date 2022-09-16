@@ -31,5 +31,36 @@ wfuzz -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt --hc 404 -c
 ```
 
 
+Remember **SEARCHSPLOIT** and **METASPLOIT**
+
+
 
 nginx -> almost no php
+
+
+
+
+
+https://therealunicornsecurity.github.io/OSCP/#tldr-
+
+
+
+### Compiling exploits
+
+32bit linux 
+```bash
+gcc -m32 -march=i686 code.c -o exp -static
+```
+
+Cross compile exploit for windows
+```bash
+# dpkg --add-architecture i386
+# install mingw32/64
+# 32 bits:
+i686-w64-mingw32-g++-win32 exp.cpp -static -o exp
+# 64 bits:
+x86_64-w64-mingw32-g++ exp.cpp -static -o exp
+```
+
+
+

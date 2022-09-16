@@ -36,6 +36,15 @@ downloading the share
 rsync -av rsync://192.168.121.126:873/fox ./shared
 ```
 
+rsync with authentication
+```bash
+rsync -av --list-only rsync://username@192.168.0.123/shared_name
+
+# password will be prompted
+
+rsync -av rsync://username@192.168.0.123:8730/shared_name ./rsyn_shared
+```
+
 uploading ssh keys (authorized_keys) via rsync
 ```bash
 # after generating a public key, rename it to authorized_keys

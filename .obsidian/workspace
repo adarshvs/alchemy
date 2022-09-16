@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BOF/BOF.md",
+            "file": "PELinux/Writables.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "container escape",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 316.833194732666
   },
   "right": {
     "id": "371297a0ae69a87d",
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BOF/BOF.md",
+                "file": "PELinux/Writables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,19 +85,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 147.6273651123047
+    "width": 167.25469970703125
   },
   "active": "a8c8c5d90ee5db3d",
   "lastOpenFiles": [
-    "PELinux/Sudo.md",
+    "PELinux/00_Checks.md",
+    "PELinux/01_Others.md",
     "PELinux/Untitled.md",
-    "BOF/BOF.md",
-    "Flow.md",
-    "BOF/Bufferoverflow/README.md",
-    "Attachments/Kerberos_2.png",
-    "Attachments/Pasted image 20220525132820.png",
-    "AD/ldapsearch.md",
-    "Common.md",
-    "AD/AD Post Exploitation.md"
+    "PELinux/Writables.md",
+    "PELinux/SUID.md",
+    "PELinux/Sudo.md",
+    "PELinux/PE Linux.md",
+    "PELinux/NFS no_root_squash.md",
+    "PELinux/LXD.md",
+    "PELinux/fail2ban.md"
   ]
 }

