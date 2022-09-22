@@ -40,6 +40,10 @@ Writeable root PATH:
 - echo $PATH variable to list out the directories set in the $PATH variable.
 - If we have write access to any folder in the PATH and there exists a cron job that we can take advantage of, we can write a shell and get root.
 
+- do manual checks
+- run lse.sh
+- linpeas.sh
+- pspy
 
 
 ### find

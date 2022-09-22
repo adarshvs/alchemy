@@ -2,8 +2,11 @@
 ----------
 
 ## ODAT
-Enumerating Oracle DB on port 1521:
 
+Refer HTB Silo
+
+
+Enumerating Oracle DB on port 1521:
 Bruteforce SID:
 ```bash
 ./odat.py sidguesser -s 10.10.10.82 -p 1521

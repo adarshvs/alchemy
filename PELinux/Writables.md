@@ -1,6 +1,8 @@
 # Writables
 -----
 
+https://nozerobit.github.io/linux-privesc-services/
+
 ### writable .service file:
 
 ```bash
