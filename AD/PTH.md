@@ -3,7 +3,7 @@
 https://www.n00py.io/2020/12/alternative-ways-to-pass-the-hash-pth/
 
 LM Hash: AAD3B435B51404EEAAD3B435B51404EE
-msf
+
 ```bash
 msf > use exploit/windows/smb/psexec
 ```
